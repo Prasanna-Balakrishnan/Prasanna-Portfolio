@@ -8,7 +8,7 @@
 A professional, fully responsive personal portfolio website built from scratch. This project was developed as **Level 1 - Task 1** for my Web Development Internship.
 
 ### 🔗 Live Demo
-Check out the live website here: **[View Portfolio](YOUR_VERCEL_LINK_HERE)**
+Check out the live website here: **[View Portfolio](https://prasanna-portfolio-teal.vercel.app/)**
 
 ---
 
