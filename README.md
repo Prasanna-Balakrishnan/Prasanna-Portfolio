@@ -28,21 +28,3 @@ The website features a custom **"Red Velvet"** color palette (crisp whites paire
 *   **Vanilla JavaScript (ES6):** DOM manipulation, event listeners, and interactive logic.
 *   **FontAwesome:** For scalable vector icons.
 *   **Vercel:** For fast and reliable hosting.
-
-## 💻 Running Locally
-To view this project on your local machine:
-
-1. Clone the repository:
-   `git clone https://github.com/Prasanna-Balakrishnan/Prasanna-Portfolio.git`
-
-2. Navigate to the project directory:
-   `cd Prasanna-Portfolio`
-
-3. Open `index.html` in your favorite web browser. No local server or build tools are required!
-
----
-
-## 👨‍💻 Author
-**Prasanna B**
-* B.Tech Computer Science and Engineering | Amrita Vishwa Vidyapeetham
-* [LinkedIn](https://www.linkedin.com/in/prasanna-b-503a85341)
