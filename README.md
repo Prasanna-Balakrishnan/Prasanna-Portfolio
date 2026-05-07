@@ -7,19 +7,6 @@
 
 A professional, fully responsive personal portfolio website built from scratch. This project was developed as **Level 1 - Task 1** for my Web Development Internship.
 
-## 💻 Running Locally
-To view this project on your local machine:
-
-1. Clone the repository:
-   `git clone https://github.com/Prasanna-Balakrishnan/Prasanna-Portfolio.git`
-
-2. Navigate to the project directory:
-   `cd Prasanna-Portfolio`
-
-3. Open `index.html` in your favorite web browser. No local server or build tools are required!
-
----
-
 ### 🔗 Live Demo
 Check out the live website here: **[View Portfolio](https://prasanna-portfolio-teal.vercel.app/)**
 
@@ -41,6 +28,19 @@ The website features a custom **"Red Velvet"** color palette (crisp whites paire
 *   **Vanilla JavaScript (ES6):** DOM manipulation, event listeners, and interactive logic.
 *   **FontAwesome:** For scalable vector icons.
 *   **Vercel:** For fast and reliable hosting.
+
+## 💻 Running Locally
+To view this project on your local machine:
+
+1. Clone the repository:
+   `git clone https://github.com/Prasanna-Balakrishnan/Prasanna-Portfolio.git`
+
+2. Navigate to the project directory:
+   `cd Prasanna-Portfolio`
+
+3. Open `index.html` in your favorite web browser. No local server or build tools are required!
+
+---
 
 ## 👨‍💻 Author
 **Prasanna B**
