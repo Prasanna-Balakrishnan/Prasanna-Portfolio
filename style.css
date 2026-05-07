@@ -47,8 +47,13 @@ section { padding: 100px 10%; min-height: 80vh; }
 
 /* Hero Section (Left Text, Right Code/Cyber) */
 #hero { display: flex; align-items: center; justify-content: space-between; min-height: 100vh; background: radial-gradient(circle at top left, var(--light-red), transparent 50%), var(--bg-color); padding-top: 120px; gap: 40px; }
-.hero-content { flex: 1; max-width: 600px; }
-.hero-content h1 { font-size: 3.5rem; line-height: 1.2; margin-bottom: 15px; }
+.hero-content { flex: 1; 
+               max-width: 600px; 
+              }
+.hero-content h1 { font-size: 3.5rem; 
+                  line-height: 1.2; 
+                  margin-bottom: 15px; 
+                 }
 .hero-content h2 { font-size: 2rem; color: var(--text-main); margin-bottom: 15px; }
 .hero-subtitle { font-size: 1.1rem; color: var(--text-light); margin-bottom: 35px; }
 .cursor { animation: blink 1s infinite; color: var(--primary-red); }
