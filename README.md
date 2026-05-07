@@ -47,4 +47,3 @@ To view this project on your local machine:
 * B.Tech Computer Science and Engineering | Amrita Vishwa Vidyapeetham
 * [LinkedIn](https://www.linkedin.com/in/prasanna-b-503a85341)
 * [GitHub](https://github.com/Prasanna-Balakrishnan)
-* [LeetCode](https://leetcode.com/u/Prasanna_b806/)
