@@ -46,4 +46,3 @@ To view this project on your local machine:
 **Prasanna B**
 * B.Tech Computer Science and Engineering | Amrita Vishwa Vidyapeetham
 * [LinkedIn](https://www.linkedin.com/in/prasanna-b-503a85341)
-*
