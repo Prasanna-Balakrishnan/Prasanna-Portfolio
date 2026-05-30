@@ -17,7 +17,33 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // 2. Typing Effect for Hero Section
+    // 2. Cyberpunk Dark Mode Switch Logic
+    const themeToggleBtn = document.getElementById("theme-toggle");
+    const currentTheme = localStorage.getItem("theme");
+
+    // Initialize state mapping
+    if (currentTheme === "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        themeToggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+    } else {
+        document.documentElement.setAttribute("data-theme", "light");
+        themeToggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
+    }
+
+    themeToggleBtn.addEventListener("click", () => {
+        let theme = document.documentElement.getAttribute("data-theme");
+        if (theme === "light") {
+            document.documentElement.setAttribute("data-theme", "dark");
+            localStorage.setItem("theme", "dark");
+            themeToggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+            localStorage.setItem("theme", "light");
+            themeToggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
+        }
+    });
+
+    // 3. Typing Effect for Hero Section
     const textArray = ["Software Developer", "B.Tech CSE Student", "Problem Solver"];
     let textIndex = 0;
     let charIndex = 0;
@@ -47,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (textArray.length) setTimeout(type, 2250);
 
-    // 3. Scroll Reveal Animations
+    // 4. Scroll Reveal Animations
     const faders = document.querySelectorAll('.fade-in');
     const appearOptions = { threshold: 0.15, rootMargin: "0px 0px -50px 0px" };
 
@@ -62,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     faders.forEach(fader => appearOnScroll.observe(fader));
 
-    // 4. Highlight Active Navigation Link on Scroll
+    // 5. Highlight Active Navigation Link on Scroll
     const sections = document.querySelectorAll("section");
 
     window.addEventListener("scroll", () => {

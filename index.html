@@ -9,10 +9,14 @@
 </head>
 <body>
 
-    <!-- Navigation -->
     <header id="header">
         <div class="logo">PRASANNA B</div>
-        <div class="hamburger"><i class="fas fa-bars"></i></div>
+        <div class="header-controls">
+            <button id="theme-toggle" class="theme-btn" title="Toggle Theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+        </div>
         <nav class="nav-menu">
             <a href="#hero" class="nav-link active">Home</a>
             <a href="#about" class="nav-link">About</a>
@@ -20,12 +24,12 @@
             <a href="#skills" class="nav-link">Skills</a>
             <a href="#projects" class="nav-link">Projects</a>
             <a href="#publications" class="nav-link">Publications</a>
+            <a href="#certifications" class="nav-link">Certifications</a>
             <a href="#education" class="nav-link">Education</a>
             <a href="#contact" class="nav-link">Contact</a>
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section id="hero" class="fade-in">
         <div class="hero-content">
             <h1>Hello, <br>I am <span class="highlight">Prasanna B</span></h1>
@@ -45,7 +49,6 @@
             </div>
         </div>
 
-        <!-- Right Side: Cyber Animation & Code Card -->
         <div class="hero-visuals">
             <div class="cyber-bars">
                 <div class="bar"></div><div class="bar"></div><div class="bar"></div>
@@ -73,7 +76,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="fade-in">
         <h2 class="section-title">WHO AM I?</h2>
         <div class="about-container">
@@ -87,7 +89,6 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
     <section id="experience" class="fade-in bg-alt">
         <h2 class="section-title">EXPERIENCE</h2>
         <div class="timeline">
@@ -118,7 +119,6 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills" class="fade-in">
         <h2 class="section-title">SKILLS & EXPERTISE</h2>
         <div class="skills-grid">
@@ -134,43 +134,73 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="fade-in bg-alt">
         <h2 class="section-title">PROJECTS</h2>
         <div class="projects-grid">
             
             <div class="project-card">
-                <h3>Eco-Fix</h3>
+                <div class="project-header">
+                    <h3>Dupegun</h3>
+                    <a href="https://github.com/Prasanna-Balakrishnan/dupegun" target="_blank" title="View Source" class="proj-git-link"><i class="fab fa-github"></i></a>
+                </div>
+                <p>A fast, cross-platform command-line tool and local web server to find, evaluate, and eliminate duplicate files using a memory-efficient multi-pass hashing system with real-time monitoring and TUI support.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">TUI</span>
+                    <span class="tech-tag">Web UI</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Eco-Fix</h3>
+                    <a href="https://github.com/Prasanna-Balakrishnan/Eco-Fix" target="_blank" title="View Source" class="proj-git-link"><i class="fab fa-github"></i></a>
+                </div>
                 <p>A responsive smart waste management web application promoting eco-friendly reporting solutions using React, Firebase, and real-time data handling.</p>
                 <div class="tech-tags"><span class="tech-tag">React</span><span class="tech-tag">Firebase</span></div>
             </div>
 
             <div class="project-card">
-                <h3>Fleet Track</h3>
+                <div class="project-header">
+                    <h3>Fleet Track</h3>
+                    <a href="https://github.com/Prasanna-Balakrishnan/Fleet-Track" target="_blank" title="View Source" class="proj-git-link"><i class="fab fa-github"></i></a>
+                </div>
                 <p>A full-stack real-time fleet tracking system integrating ESP32-based GPS hardware with a live React dashboard for monitoring.</p>
                 <div class="tech-tags"><span class="tech-tag">React</span><span class="tech-tag">Node.js</span><span class="tech-tag">ESP32</span></div>
             </div>
 
             <div class="project-card">
-                <h3>G-Wallet</h3>
+                <div class="project-header">
+                    <h3>G-Wallet</h3>
+                    <a href="https://github.com/Prasanna-Balakrishnan/G-Wallet" target="_blank" title="View Source" class="proj-git-link"><i class="fab fa-github"></i></a>
+                </div>
                 <p>An ACID-compliant secure digital transaction system featuring batch processing, backend validation, and authentication.</p>
                 <div class="tech-tags"><span class="tech-tag">FastAPI</span><span class="tech-tag">PostgreSQL</span></div>
             </div>
 
             <div class="project-card">
-                <h3>Bloom Filter URL System</h3>
+                <div class="project-header">
+                    <h3>Bloom Filter URL System</h3>
+                    <a href="https://github.com/Prasanna-Balakrishnan/Bloom-Filter-URL-System" target="_blank" title="View Source" class="proj-git-link"><i class="fab fa-github"></i></a>
+                </div>
                 <p>Implemented a custom Bloom Filter to evaluate probabilistic URL filtering performance, analyzing memory usage versus false-positive trade-offs.</p>
                 <div class="tech-tags"><span class="tech-tag">Python</span><span class="tech-tag">Data Structures</span></div>
             </div>
 
             <div class="project-card">
-                <h3>Neo4j Academic Graph</h3>
+                <div class="project-header">
+                    <h3>Neo4j Academic Graph</h3>
+                    <a href="https://github.com/Prasanna-Balakrishnan/Neo4j-Academic-Graph" target="_blank" title="View Source" class="proj-git-link"><i class="fab fa-github"></i></a>
+                </div>
                 <p>Designed a graph-based schema to model students, courses, and relationships, optimizing Cypher queries for faster traversal.</p>
                 <div class="tech-tags"><span class="tech-tag">Python</span><span class="tech-tag">Neo4j</span></div>
             </div>
 
             <div class="project-card">
-                <h3>Minesweeper Engine</h3>
+                <div class="project-header">
+                    <h3>Minesweeper Engine</h3>
+                    <a href="https://github.com/Prasanna-Balakrishnan/Minesweeper-Engine" target="_blank" title="View Source" class="proj-git-link"><i class="fab fa-github"></i></a>
+                </div>
                 <p>An algorithm-driven Minesweeper engine focusing on deterministic solving strategies, graph traversal, and logical inference techniques.</p>
                 <div class="tech-tags"><span class="tech-tag">Java</span><span class="tech-tag">C++</span></div>
             </div>
@@ -178,7 +208,6 @@
         </div>
     </section>
 
-    <!-- Publications Section -->
     <section id="publications" class="fade-in">
         <h2 class="section-title">PUBLICATIONS</h2>
         <div class="publication-card">
@@ -196,8 +225,23 @@
         </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education" class="fade-in bg-alt">
+    <section id="certifications" class="fade-in bg-alt">
+        <h2 class="section-title">CERTIFICATIONS</h2>
+        <div class="certifications-container">
+            <div class="cert-card">
+                <div class="cert-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="cert-details">
+                    <h3>The Complete 2026 Web Development Bootcamp</h3>
+                    <h4>Udemy &middot; Angela Yu</h4>
+                    <p>Comprehensive full-stack development credential mastering HTML5, CSS3, JavaScript ES6, Node.js, Express, React, and PostgreSQL database.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="fade-in">
         <h2 class="section-title">EDUCATION</h2>
         <div class="timeline">
             <div class="timeline-item">
@@ -225,8 +269,7 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="fade-in">
+    <section id="contact" class="fade-in bg-alt">
         <h2 class="section-title">LET'S CONNECT</h2>
         <div class="contact-wrapper">
             <div class="contact-card">
