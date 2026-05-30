@@ -47,8 +47,13 @@ section { padding: 100px 10%; min-height: 80vh; }
 
 /* Hero Section (Left Text, Right Code/Cyber) */
 #hero { display: flex; align-items: center; justify-content: space-between; min-height: 100vh; background: radial-gradient(circle at top left, var(--light-red), transparent 50%), var(--bg-color); padding-top: 120px; gap: 40px; }
-.hero-content { flex: 1; max-width: 600px; }
-.hero-content h1 { font-size: 3.5rem; line-height: 1.2; margin-bottom: 15px; }
+.hero-content { flex: 1; 
+               max-width: 600px; 
+              }
+.hero-content h1 { font-size: 3.5rem; 
+                  line-height: 1.2; 
+                  margin-bottom: 15px; 
+                 }
 .hero-content h2 { font-size: 2rem; color: var(--text-main); margin-bottom: 15px; }
 .hero-subtitle { font-size: 1.1rem; color: var(--text-light); margin-bottom: 35px; }
 .cursor { animation: blink 1s infinite; color: var(--primary-red); }
@@ -60,8 +65,12 @@ section { padding: 100px 10%; min-height: 80vh; }
 /* Cyber Graph Animation */
 .cyber-bars { position: absolute; display: flex; gap: 15px; align-items: flex-end; height: 300px; opacity: 0.2; z-index: 0; }
 .bar { width: 30px; background: linear-gradient(to top, var(--primary-red), transparent); border-radius: 5px 5px 0 0; animation: graphMove 1.5s infinite alternate ease-in-out; }
-.bar:nth-child(1) { animation-delay: 0.1s; height: 40%; }
-.bar:nth-child(2) { animation-delay: 0.4s; height: 70%; }
+.bar:nth-child(1) { animation-delay: 0.1s; 
+                   height: 40%; 
+                  }
+.bar:nth-child(2) { animation-delay: 0.4s; 
+                   height: 70%; 
+                  }
 .bar:nth-child(3) { animation-delay: 0.2s; height: 50%; }
 .bar:nth-child(4) { animation-delay: 0.6s; height: 90%; }
 .bar:nth-child(5) { animation-delay: 0.3s; height: 60%; }
