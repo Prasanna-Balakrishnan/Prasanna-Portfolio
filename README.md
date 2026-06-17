@@ -5,7 +5,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)]()
 
-A professional, fully responsive personal portfolio website built from scratch. This project was developed as **Level 1 - Task 1** for my Web Development Internship.
+A professional, fully responsive personal portfolio website built from scratch.
 
 ### 🔗 Live Demo
 Check out the live website here: **[View Portfolio](https://prasanna-portfolio-teal.vercel.app/)**
