@@ -11,7 +11,6 @@ A professional, fully responsive personal portfolio website built from scratch.
 Check out the live website here: **[View Portfolio](https://prasanna-portfolio-teal.vercel.app/)**
 
 ---
-
 ## 🎨 Theme & Design
 The website features a custom **"Red Velvet"** color palette (crisp whites paired with deep reds) and modern UI/UX principles. It includes a sleek, developer-centric hero section with a JSON code card and CSS-only cyberpunk-style graph animations.
 
@@ -41,7 +40,6 @@ To view this project on your local machine:
 3. Open `index.html` in your favorite web browser. No local server or build tools are required!
 
 ---
-
 ## 👨‍💻 Author
 **Prasanna B**
 * B.Tech Computer Science and Engineering | Amrita Vishwa Vidyapeetham
